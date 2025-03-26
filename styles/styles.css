@@ -1,0 +1,15 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --FONT-FAMILY: "Raleway", sans-serif;
+  --FONT-SIZE: 1rem;
+  --SP-FONT-WEIGHT:400;
+  --SP-FONT-SIZE: 2rem;
+  --BG--COLOR: #3A4455;
+  --TEXT-COLOR: whitesmoke;
+}
