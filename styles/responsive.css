@@ -1,0 +1,40 @@
+@media screen and (max-width:768px){
+  .header__text{
+    margin-left: 0;
+    text-align: center;
+  }
+  .menu-toggle{
+    left: 0;
+  }
+  .menu{
+    right: 0;
+  }
+  .menu ul{
+    display: none;
+  }
+  .menu ul li{
+    display: block;
+  }
+  .menu ul li:hover{
+    background: var(--THEME-1);
+  }
+  .menu ul li a{
+    color: var(--TEXT-COLOR);
+  }
+  .menu ul li a:hover{
+    color: var(--BG-COLOR);
+  }
+  .menu-toggle span{
+    background: var(--TEXT-COLOR);
+  }
+  .menu-toggle span:nth-child(1){
+    transform: rotate(45deg);
+  }
+  .menu-toggle span:nth-child(2){
+    transform: rotate(-45deg);
+  }
+  .menu-toggle span:nth-child(3){
+    display: none;
+  }
+  
+}
