@@ -12,7 +12,7 @@ menu.forEach((list) => {
       </nav>
    <div class="menu" id="menu">
       <ul>
-         <li><a href="${list.link}">${list.item}</a></li>  
+         <li><a href="${list.link}">${list.name}</a></li>  
       </ul>
    </div>
    `;
