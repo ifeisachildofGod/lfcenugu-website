@@ -1,57 +1,57 @@
 const menu = [
  {
-  item: "Home",
+  name: "Home",
   link: "#"
  },
 
  {
-  item: "About",
+  name: "About",
   link: "about.html"
  },
 
  {
-  item: "Worship Services",
+  name: "Worship Services",
   link: "about.html"
  },
  {
-  item: "Ministries",
+  name: "Ministries",
   link: "about.html"
  },
  {
-  item: "Events",
+  name: "Events",
   link: "about.html"
  },
  {
-  item: "Sermons and Teachings",
+  name: "Sermons and Teachings",
   link: "about.html"
  },
  {
-  item: "Prayer",
+  name: "Prayer",
   link: "about.html"
  },
 
  {
-  item:"Contact Us",
+  name:"Contact Us",
   link:"contact.html"
  },
  {
-  item:"Get Involved",
+  name:"Get Involved",
   link:"contact.html"
  },
  {
-  item:"Resources",
+  name:"Resources",
   link:"contact.html"
  },
  {
-  item:"Donate",
+  name:"Donate",
   link:"contact.html"
  },
  {
-  item:"Testimonies",
+  name:"Testimonies",
   link:"contact.html"
  },
  {
-  item:"FAQs",
+  name:"FAQs",
   link:"contact.html"
  },
 ];
