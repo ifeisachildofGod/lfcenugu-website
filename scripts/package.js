@@ -1,4 +1,4 @@
-const menu = [
+const menuOptions = [
  {
   name: "Home",
   link: "#"
