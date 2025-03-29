@@ -1,14 +1,8 @@
-
+/* 
 let menuListHTML = "";
    menu.forEach((list) => {
     menuListHTML += ` 
-    <nav class="nav">
-     <div class="menu-toggle" id="menuToggle">
-        <span></span>
-        <span></span>
-        <span></span>
-     </div> <!-- toggle end -->
-  </nav>
+   
     <div class="menu" id="menu">
                 <ul>
                <li><a href="${list.link}">${list.item}</a></li>  
@@ -17,7 +11,13 @@ let menuListHTML = "";
     `;
 
   });
-  document.querySelector(".counter").innerHTML = menuListHTML;
+  document.querySelector(".counter").innerHTML = menuListHTML; */
 
+/*   const ToggleButton = document.getElementById("menuToggle");
+  const ToggleList = document.getElementById("menu");
 
-  
+  ToggleButton.addEventListener("click", () => {
+         ToggleButton.classList.toggle("open");
+         ToggleList.classList.toggle("active");
+  });
+ */

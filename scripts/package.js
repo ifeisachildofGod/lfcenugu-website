@@ -1,4 +1,4 @@
-const menu = [
+/* const menu = [
  {
   item: "Home",
   link: "#"
@@ -53,6 +53,5 @@ const menu = [
  {
   item:"FAQs",
   link:"contact.html"
- },
-];
-
+ }];
+ */

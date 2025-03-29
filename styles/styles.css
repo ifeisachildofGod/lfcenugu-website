@@ -1,9 +1,8 @@
 
 *{
-  padding: 0;
-  margin: 0;
+  margin:0;
+  padding:0;
   box-sizing: border-box;
-  background-color: var(--BG--COLOR);
 }
 
 :root{
@@ -15,82 +14,81 @@
   --THEME-1: #FF6B6B;
   --TEXT-COLOR: whitesmoke;
 }
-.header{
+.container{
   display: flex;
+
 }
-.header__text{
-  font: var(--SP-FONT-WEIGHT) var(--FONT-SIZE) var(--FONT-FAMILY);
-  text-align: center;
-  margin-left: 15rem;
-  margin-top:2rem;
-  color: var(--TEXT-COLOR);
-}
-.menu-toggle{
-  width: 25px;
-  height: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  z-index: 100;
+.image-bg{
   position: absolute;
-  left: 78rem;
-  top: 30px;
+    filter: opacity(0.5)
+    brightness(50%) ;
+    z-index: -1;
 }
-.menu-toggle span{
-  width: 100%;
-  height: 1px;
-  background-color: var(--TEXT-COLOR);
-  transition: all 0.3s ease-in-out;
+
+.header{
+   margin: 1.5rem;
 }
-.menu{
-  position :absolute;
-  top: 0;
-  right: -250rem;
-  width: 250px;
-  height: 100vh;
-  background: var(--THEME-1);
-   transition: right 0.5s ease-in-out; 
-  display: flex;
-  padding: 1rem;
-  z-index: 10;
-  transition: 1.2s ease-in-out;
-  align-items: center;
-  padding-left: 20px;
+.header--info{
+  margin-left: 2.5rem;
+  color: firebrick;
+  font: var(--SP-FONT-WEIGHT) 1.5rem var(--FONT-FAMILY);
+  z-index: 2;
+  cursor: pointer;
 }
-.menu ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-}
-.menu ul li{
+.header--title{
+  font: var(--SP-FONT-WEIGHT) 2rem var(--FONT-FAMILY);
   white-space: nowrap;
   cursor: pointer;
-  z-index: 1;
-  text-align: center;
-  padding: 0.2rem;
-  transform: translateX(-65px);
+  
 }
-.menu ul li a{
-  text-decoration: none;
-  color: var(--TEXT-COLOR);
+
+.nav{
+  margin: 0.6rem 2.5rem;
+  padding:15px;
+  position: relative;
+}
+.nav ul{
+  list-style: none;
+   display: flex;
+   margin-left: 25rem;
+   margin-top: 5px;
+}
+.nav ul li a{
+   text-decoration: none;
+   margin-left: 2rem;
+   white-space: nowrap; 
+   font: 400 1rem var(--FONT-FAMILY);
+   color: rgb(26, 25, 25);
+}
+.slogan{
+  margin-left: 35rem;
+    color: rgb(36, 34, 34);
+    border-top: 2px solid mintcream;
+    width: 20%;
+    border-bottom: 2px solid mintcream;
+}
+.slogan h3{
+    font: 400 2rem var(--FONT-FAMILY);
+     transform: translateX(-150px);
+    padding-top: 1rem;
+    white-space: nowrap;
+}
+button{
+  margin-left: 40rem;
+  margin-top: 2rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  cursor: pointer;
   font: var(--SP-FONT-WEIGHT) 1rem var(--FONT-FAMILY);
+  transition: all .3s ease-in-out;
 }
-.menu ul li a :hover{
-   color: rgb(165, 76, 76);
+button a{
+  text-decoration: none;
+  color: black;
+  padding: 1.2rem;
 }
-.menu.active{
-  right: 0;
-}
-.menu-toggle.open span:nth-child(1){
-   transform: translateY(8px
-   ) rotate(45deg);
-}
-.menu-toggle.open span:nth-child(2){
-     width: 0;
-}
-.menu-toggle.open span:nth-child(3){
-   transform: translateY(-8px
-   ) rotate(-45deg);
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s ease-in-out;
 }
